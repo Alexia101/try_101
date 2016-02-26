@@ -21,12 +21,57 @@
                     <field name="ACTION">FLASH</field>
                     <value name="LED">
                       <block type="math_number" id="168">
-                        <field name="NUM">2500</field>
+                        <field name="NUM">500</field>
                       </block>
                     </value>
                     <next>
                       <block type="oled_color" id="142">
                         <field name="OBJECT">GREEN</field>
+                        <next>
+                          <block type="led_select" id="177" inline="true">
+                            <field name="ACTION">FLASH</field>
+                            <value name="LED">
+                              <block type="math_number" id="199">
+                                <field name="NUM">500</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="oled_color" id="186">
+                                <field name="OBJECT">GREEN</field>
+                                <next>
+                                  <block type="led_select" id="202" inline="true">
+                                    <field name="ACTION">FLASH</field>
+                                    <value name="LED">
+                                      <block type="math_number" id="205">
+                                        <field name="NUM">500</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="oled_color" id="206">
+                                        <field name="OBJECT">GREEN</field>
+                                        <next>
+                                          <block type="led_select" id="204" inline="true">
+                                            <field name="ACTION">FLASH</field>
+                                            <value name="LED">
+                                              <block type="math_number" id="203">
+                                                <field name="NUM">500</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="oled_color" id="207">
+                                                <field name="OBJECT">GREEN</field>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
                       </block>
                     </next>
                   </block>
